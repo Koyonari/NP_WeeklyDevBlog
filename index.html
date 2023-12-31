@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Yong Shyan's Dev Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+
+<body class = "webpage">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style = "margin-left: 3vw;">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="images/sunset.webp" alt="Sunset image" loading="lazy" class="sunset">
+    <div class = hero-container>
+      <h2 data-value="My Dev Blog" class="bio-title">My Dev Blog</h2>
+      <p class="bio-text">
+        Hi! I'm An Yong Shyan, a student studying Information Technology in Ngee Ann Polytechnic excited to start a career in the cyberspace! This is my weekly development blog for my Front-End Development module to expand my knowledge on HTML, CSS and Javascript.
+      </p>
+    </div> 
+  </section>
+
+  <div class = "popup" id = "popup-1">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-1')">&times;</div>
+      <h1>Week 1: Introduction to Front-End Development</h1>
+      <p>I spent Week 1 learning about the front-end development and web development. Front-end is a mix of programming and layout that powers the visuals and interactions of the web which is made up of HTML, CSS and Javascript. 
+        I learnt that HTML is the skeleton of the webpage, CSS is the skin and Javascript is the brain. I also learnt about the different types of web development such as front-end, back-end and full-stack development. I became familiar with :
+        <ul>
+          <li>Header elements</li>
+          <li>Paragraph elements</li>
+          <li>Title elements</li>
+          <li>Unordered and Ordered lines</li>
+          <li>Image elements</li>
+          <li>Span elements</li>
+          <li>Div elements</li>
+          <li>Closing and Opening tags</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-2">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-2')">&times;</div>
+      <h1>Week 2: Semantic Cascading Style Sheets</h1>
+      <p>I spent Week 2 learning about Cascading Style Sheets, Google Fonts, Box Models and Gradients. CSS defines the style of HTML and it design a website and its typography. CSS use classes and it can also make a website responsive to the screen size. I learnt alot about CSS and elements such as:
+        <ul>
+          <li>Link elements</li>
+          <li>Style elements</li>
+          <li>Font-family</li>
+          <li>Color</li>
+          <li>Background-color</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-3">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-3')">&times;</div>
+      <h1>Week 3: Media Queries & Flexbox</h1>
+      <p>I spent Week 3 learning about Media Queries and Flexbox. A simple form can be made using input and button tags. I am now familiar with:
+        <ul>
+          <li>Form tag</li>
+          <li>Input tag</li>
+          <li>Label tag</li>
+          <li>Button tag</li>
+          <li>Placeholder tag</li>
+          <li>Inheritance and specificity</li>
+          <li>Flexbox</li>
+          <li>Box Models using padding, margin, width, height, border</li>
+          <li>Z-index, absolute and relative positioning</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-4">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-4')">&times;</div>
+      <h1>Week 4: Flex Layout, Responsiveness & Markdown</h1>
+      <p>I spent most of Week 4 on Assignment 1. I learnt about responsive images, flexible layouts, markdown and github. I am now familiar with:
+        <ul>
+          <li>Scaling images up and down using %, px and vw/vh</li>
+          <li>Simple commands with Markdown</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-5">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-5')">&times;</div>
+      <h1>Week 5: Introduction to Javascript</h1>
+      <p>I spent most of Week 5 working on Assignment 1. However, I also learnt about Javascript which can be used for functionality and act as the brains of a website. These are the pictures for my asynchronous javascript linkedin quiz:
+        <ul>
+          <img src="images/Quiz 1.png" alt="Q1 image" loading="lazy" class="quiz">
+          <img src="images/Quiz 2.png" alt="Q2 image" loading="lazy" class="quiz">
+          <img src="images/Quiz 3.png" alt="Q3 image" loading="lazy" class="quiz">
+          <img src="images/Quiz 4.png" alt="Q4 image" loading="lazy" class="quiz">
+          <img src="images/Quiz 5.png" alt="Q5 image" loading="lazy" class="quiz">
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-6">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-6')">&times;</div>
+      <h1>Week 6: Javascript Basics</h1>
+      <p>I spent Week 6 learning about Javascript Basics and Objects. I learnt that a variable is a named container for a value that can be used to store, manipulate and retrieve data. I learnt:
+        <ul>
+          <li>Statements</li>
+          <li>Data types</li>
+          <li>String Processing</li>
+          <li>Template Literals</li>
+          <li>Comparison & Logical Operators</li>
+          <li>Casting</li>
+          <li>For and While Loops</li>
+          <li>Array Indexing</li>
+          <li>2D Arrays</li>
+          <li>Associative Arrays</li>
+          <li>Functions</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-7">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-7')">&times;</div>
+      <h1>Week 7: DOM, Event Handling, Validation and Json Local Storage</h1>
+      <p>I spent Week 7 learning about DOM, Event Handling & Validation, Json Local Storage:
+        <ul>
+          <li>getElementsByClassName</li>
+          <li>getElementsByTagName</li>
+          <li>querySelectorAll</li>
+          <li>parentNode</li>
+          <li>previousSibling/nextSibling</li>
+          <li>firstChild/lastChild</li>
+          <li>item() method</li>
+          <li>Array syntax</li>
+          <li>UI events</li>
+          <li>Keyboard events</li>
+          <li>Mouse events</li>
+          <li>Focus events</li>
+          <li>Form events</li>
+          <li>Event Listeners</li>
+          <li>Focus and Blur</li>
+          <li>Client and Server Validation</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-8">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-8')">&times;</div>
+      <h1>Week 8: Fetch jQuery, API, AJAX and Data Attributes</h1>
+      <p>I spent Week 8 learning about jQuery, API, AJAX and Data Attributes. I learnt the importance of Asynchronous Javascript and XML and Application Programming Interface and how they work:
+        <ul>
+          <li>Get Set Attributes</li>
+          <li>Data Attributes</li>
+          <li>contains()</li>
+          <li>Asynchronous Javascript And XML</li>
+          <li>Application Programming Interface</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class = "popup" id = "popup-9">
+    <div class = "overlay"></div>
+    <div class = "content">
+      <div class = "close-btn" onclick = "togglePopup('popup-9')">&times;</div>
+      <h1>Week 9: Bootstrap</h1>
+      <p>I learnt about building fast, responsive sites with Bootstrap:
+        <ul>
+          <li>Container & Columns</li>
+          <li>Typography</li>
+          <li>Images</li>
+          <li>Components</li>
+          <li>Forms</li>
+          <li>Navigation Bar</li>
+          <li>Video Embeds</li>
+          <li>Charts & Tables</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row"> 
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-1')">Week 1<p>Intro to Front-End</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-2')">Week 2<p>Semantic CSS</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-3')">Week 3<p>Media Queries & FLexbox</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-4')">Week 4<p>Flex Layout & Responsiveness</p></button></div>
+    </div>
+
+    <div class="row">
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-5')">Week 5<p>Intro to Javascript</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-6')">Week 6<p>Javascript Basics</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-7')">Week 7<p>DOM Tree and Events</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-8')">Week 8<p>API and Data Attributes</p></button></div>
+    </div>
+
+    <div class="row">
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-9')">Week 9<p>Bootstrap</p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-10')">Week 10<p></p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-11')">Week 11<p></p></button></div>
+      <div class = "col-12 col- sm-6 col-md-4 col-lg-3" button onclick = "togglePopup('popup-12')">Week 12<p></p></button></div>
+    </div>
+  </div>
+
+  <script src = "script.js"></script>
+</body>
+</html>
