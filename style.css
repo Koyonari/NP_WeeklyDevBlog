@@ -20,7 +20,7 @@ button:hover {
 }
 
 .webpage {
-  background-image:url("images/background.gif");
+  background-image:url("/images/background.gif");
   background-color: black;
   background-repeat: repeat;
   font-family: 'League Spartan', sans-serif;
