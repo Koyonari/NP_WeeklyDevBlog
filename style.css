@@ -298,3 +298,17 @@ li {
   width: 70vw;
   background-color: rgb(22, 22, 22);
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+.socicon {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
