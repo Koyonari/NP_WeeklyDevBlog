@@ -1,3 +1,4 @@
+//Hacker effect
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -21,6 +22,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }, 20);
 });
 
+//News popup
 function togglePopup(popupid) {
   document.getElementById(popupid).classList.toggle("active");
 }
