@@ -150,25 +150,18 @@ li {
   margin-bottom: 5vh;
 }
 
-.hero-container2 {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  width: 35vw;
-  background-color: rgb(36, 36, 36);
-  border-radius: 10px;
-  border: 0.75px solid white;
-  padding: 20px;
-  margin-top: 2.5vh;
-  margin-bottom: 5vh;
-}
-
 .bio-title {
   font-weight: 600;
   font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-container {
+    width: 80vw;
+  }
 }
 
 .col-lg-3 {
